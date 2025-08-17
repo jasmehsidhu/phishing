@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <div id="main">
+        <img src="pp.png">
+        <form method="POST" action="/">
+            <input name="username" placeholder="Username or Email" type="text" id="username"><br>
+            <input name="password" placeholder="Password" type="password" id="password">
+            <br><br>
+            <button type="submit">Login</button>
+        </form>
+                            <p>Dont have an account? <span>Signup</span></p>
+    </div>
+</body>
+<style>
+    p{
+        font-size: 17px;
+        color:#999;
+        margin-top:-15px
+    }
+    span{
+        color:#3897f0
+    }
+    img{
+        margin-top:20px ;
+        height:100px;
+        width:240px
+    }
+    body{
+     display: flex;
+     justify-content:center;
+     background-color: #fafafa;
+    }
+    button{
+        height:40px;
+        width:350px;
+        background-color: #3897f0;
+        color:white;
+        border-radius: 2px;
+        align-self: center;
+        border:none;
+    }
+    #main{
+        margin-top:120px;
+        height:350px;
+        width:400px;
+        background: #ffffff;
+        display:flex;
+        padding:20px;
+        flex-direction: column;
+        padding-bottom:50px;
+        align-items: center;
+        gap:40px;
+        box-shadow: 0px 0.5px 2px  rgb(114, 114, 114);
+    }
+    input{
+        height:40px;
+        padding-left:5px;
+        width:350px;
+        background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+</style>
+</html>
